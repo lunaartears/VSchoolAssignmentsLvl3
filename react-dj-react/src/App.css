@@ -1,0 +1,51 @@
+.color {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 20px
+}
+.smalls-button {
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+}
+.display {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.party-button {
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+}
+.pro-button-left {
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+}
+.pro-button-right {
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+}
+.tl-button {
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+}
+.tr-button {
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+}
+.bl-button {
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+}
+.br-button {
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+}

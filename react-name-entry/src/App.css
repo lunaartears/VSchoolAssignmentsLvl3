@@ -1,0 +1,18 @@
+.input-box {
+  width: 300px;
+  height: 25px;
+  margin-top: 50px;
+  margin-left: 46px;
+}
+.button {
+  width: 200px;
+  height: 50px;
+  margin-left: 100px;
+}
+.names-list {
+  font-family: fantasy;
+  font-size: 35px;
+}
+h1 {
+  margin-left: 170px;
+}

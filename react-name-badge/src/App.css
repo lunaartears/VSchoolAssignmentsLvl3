@@ -1,0 +1,38 @@
+body {
+  background-color: darkcyan;
+}
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cont1-item {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.cont2-item {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.badge {
+  border-style: dotted;
+  margin: 50px;
+}
+.badge-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 20px;
+}
+.text-area {
+  border-style: dotted;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+}

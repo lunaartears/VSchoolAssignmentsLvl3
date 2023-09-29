@@ -1,0 +1,117 @@
+.header {
+  width: 100%;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: flex;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+  color: white;
+}
+.header-text {
+  margin-right: auto;
+  padding: 20px;
+}
+.project-text {
+  margin-right: 20px;
+  font-size: 15px;
+}
+.trollImg {
+  height: 50px;
+  margin-left: 15px;
+}
+.form {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 50px;
+}
+.input1 {
+  display: grid;
+  grid-column: 2 / 4;
+  border-radius: 5px;
+  text-indent: 10px;
+  font-size: 25px;
+}
+.input2 {
+  display: grid;
+  grid-column: 4 / 6;
+  border-radius: 5px;
+  text-indent: 10px;
+  font-size: 25px;
+}
+.button {
+  display: grid;
+  grid-column: 3 / 5;
+  padding: 20px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  font-size: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.meme{
+  position: relative;
+}
+.meme-image {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+.meme-text {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+.top {
+  position: absolute;
+  top: 0px;
+}
+.bottom {
+  position: absolute;
+  bottom: 90px;
+}
+.save-button {
+  padding: 20px;
+  margin: 20px;
+}
+.del-button {
+  padding: 20px;
+  margin: 20px;
+  cursor: pointer;
+
+}
+.edit-button {
+  padding: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+.card-meme {
+  position: relative;
+  /* npm startborder: solid red 2px; */
+}
+.card-text {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.card-top {
+  position: absolute;
+  top: 60px;
+}
+.card-bottom{
+  position: absolute;
+  bottom: 90px;
+}
+.card-image {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
